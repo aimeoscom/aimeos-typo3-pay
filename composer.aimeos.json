@@ -1,0 +1,65 @@
+{
+	"name": "Aimeos TYPO3 payments",
+	"description": "Aimeos TYPO3 payments extension",
+	"homepage": "https://www.aimeos.org",
+	"license": "LGPL-3.0",
+	"keywords": ["e-commerce", "shop", "portal", "market place", "payment"],
+	"support": {
+		"source": "https://github.com/aimeos/aimeos-typo3-pay",
+		"issues": "https://github.com/aimeos/aimeos-typo3-pay/issues",
+		"forum": "https://aimeos.org/help",
+		"wiki": "https://aimeos.org/docs"
+	},
+	"type": "metapackage",
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.3.3",
+		"aimeos/ai-payments": "2015.10.*",
+		"omnipay/omnipay": "~2.0",
+		"agmscode/omnipay-agms": "dev-master",
+		"lokielse/omnipay-alipay": "dev-master",
+		"samvaughton/omnipay-barclays-epdq": "dev-master",
+		"cardgate/omnipay-cardgate": "dev-master",
+		"fotografde/checkoutcom": "dev-master",
+		"meebio/omnipay-creditcall": "dev-master",
+		"dioscouri/omnipay-cybersource": "dev-master",
+		"dabsquared/omnipay-cybersource-soap": "dev-master",
+		"coatesap/omnipay-datacash": "dev-master",
+		"dercoder/omnipay-ecopayz": "dev-master",
+		"andreas22/omnipay-fasapay": "dev-master",
+		"delatbabel/omnipay-fatzebra": "dev-master",
+		"dercoder/omnipay-globalcloudpay": "dev-master",
+		"academe/omnipay-helcim": "dev-master",
+		"vink/omnipay-komoju": "dev-master",
+		"incube8/omnipay-multicards": "dev-master",
+		"alfaproject/omnipay-neteller": "dev-master",
+		"mfauveau/omnipay-nmi": "dev-master",
+		"mfauveau/omnipay-pacnet": "dev-master",
+		"descubraomundo/omnipay-pagarme": "dev-master",
+		"coatesap/omnipay-paymentsense": "dev-master",
+		"incube8/omnipay-paymentwall": "dev-master",
+		"paypronl/omnipay-paypro": "dev-master",
+		"dercoder/omnipay-paysafecard": "dev-master",
+		"softcommerce/omnipay-paytrace": "dev-master",
+		"yasinkuyu/omnipay-nestpay": "dev-master",
+		"coatesap/omnipay-realex": "dev-master",
+		"meebio/omnipay-secure-trading": "dev-master",
+		"justinbusschau/omnipay-secpay": "dev-master",
+		"fruitcakestudio/omnipay-sisow": "dev-master",
+		"alfaproject/omnipay-skrill": "dev-master",
+		"lokielse/omnipay-unionpay": "dev-master",
+		"igaponov/omnipay-wirecard": "dev-master",
+		"teaandcode/omnipay-worldpay-xml": "dev-master",
+		"andylibrian/omnipay-veritrans": "dev-master",
+		"aTastyCookie/yandexmoney_omnipay": "dev-master"
+	},
+	"config": {
+		"vendor-dir": "Resources/Libraries"
+	},
+	"extra": {
+		"installer-paths": {
+			"Resources/Private/Extensions/{$name}/": ["type:aimeos-extension"]
+		}
+	}
+}
