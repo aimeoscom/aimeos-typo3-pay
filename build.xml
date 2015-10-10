@@ -18,8 +18,8 @@
 		    </replaceregexp>
 		  </filterchain>
 		</reflexive>
-		<exec command="zip -r ../aimeos_pay${version}.zip * -x \*.git\*" checkreturn="true" logoutput="true"/>
-		<filehash file="../aimeos_pay${version}.zip" hashtype="1" />
+		<exec command="zip -r ../aimeos_pay_${version}.zip * -x \*.git\*" checkreturn="true" logoutput="true"/>
+		<filehash file="../aimeos_pay_${version}.zip" hashtype="1" />
 		<echo msg="SHA1 hash value: ${filehashvalue}" />
 	</target>
 

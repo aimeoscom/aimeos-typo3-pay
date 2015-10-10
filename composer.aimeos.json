@@ -2,7 +2,7 @@
 	"name": "Aimeos TYPO3 payments",
 	"description": "Aimeos TYPO3 payments extension",
 	"homepage": "https://www.aimeos.org",
-	"license": "LGPL-3.0",
+	"license": "GPL-3.0",
 	"keywords": ["e-commerce", "shop", "portal", "market place", "payment"],
 	"support": {
 		"source": "https://github.com/aimeos/aimeos-typo3-pay",
@@ -21,7 +21,7 @@
 		"lokielse/omnipay-alipay": "dev-master",
 		"samvaughton/omnipay-barclays-epdq": "dev-master",
 		"cardgate/omnipay-cardgate": "dev-master",
-		"fotografde/checkoutcom": "dev-master",
+		"fotografde/omnipay-checkoutcom": "dev-master",
 		"meebio/omnipay-creditcall": "dev-master",
 		"dioscouri/omnipay-cybersource": "dev-master",
 		"dabsquared/omnipay-cybersource-soap": "dev-master",
@@ -38,11 +38,11 @@
 		"mfauveau/omnipay-pacnet": "dev-master",
 		"descubraomundo/omnipay-pagarme": "dev-master",
 		"coatesap/omnipay-paymentsense": "dev-master",
-		"incube8/omnipay-paymentwall": "dev-master",
+		"delatbabel/omnipay-paymentwall": "dev-master",
 		"paypronl/omnipay-paypro": "dev-master",
 		"dercoder/omnipay-paysafecard": "dev-master",
 		"softcommerce/omnipay-paytrace": "dev-master",
-		"yasinkuyu/omnipay-nestpay": "dev-master",
+		"yasinkuyu/omnipay-nestpay": "~2.0",
 		"coatesap/omnipay-realex": "dev-master",
 		"meebio/omnipay-secure-trading": "dev-master",
 		"justinbusschau/omnipay-secpay": "dev-master",
@@ -52,7 +52,7 @@
 		"igaponov/omnipay-wirecard": "dev-master",
 		"teaandcode/omnipay-worldpay-xml": "dev-master",
 		"andylibrian/omnipay-veritrans": "dev-master",
-		"aTastyCookie/yandexmoney_omnipay": "dev-master"
+		"yandexmoney/omnipay": "dev-master"
 	},
 	"config": {
 		"vendor-dir": "Resources/Libraries"
