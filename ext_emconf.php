@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'Aimeos payments',
-	'description' => 'Aimeos TYPO3 payments extension for Aimeos project',
+	'description' => 'Aimeos TYPO3 payments extension for Aimeos project. It contains the Omnipay payment library (http://omnipay.thephpleague.com/) including all available payment drivers.',
 	'category' => 'plugin',
 	'author' => 'Aimeos',
 	'author_email' => 'aimeos@aimeos.org',
