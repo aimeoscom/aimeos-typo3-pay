@@ -16,16 +16,16 @@ $EM_CONF[$_EXTKEY] = array(
 	'category' => 'plugin',
 	'author' => 'Aimeos',
 	'author_email' => 'aimeos@aimeos.org',
-	'state' => 'beta',
+	'state' => 'stable',
 	'internal' => '',
 	'uploadfolder' => '0',
 	'createDirs' => '',
 	'clearCacheOnLoad' => 0,
-	'version' => '0.5.0',
+	'version' => '1.0.0',
 	'constraints' => array(
 		'depends' => array(
 			'typo3' => '6.2.0-7.99.99',
-			'aimeos' => '2.4.0-2.99.99',
+			'aimeos' => '2.3.0-2.99.99',
 		),
 		'conflicts' => array(
 		),
