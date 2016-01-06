@@ -50,6 +50,8 @@
 		"fruitcakestudio/omnipay-sisow": "dev-master",
 		"alfaproject/omnipay-skrill": "dev-master",
 		"lokielse/omnipay-unionpay": "dev-master",
+		"labs7in0/omnipay-wechat": "dev-master",
+		"Collizo4sky/omnipay-wepay": "dev-master",
 		"igaponov/omnipay-wirecard": "dev-master",
 		"teaandcode/omnipay-worldpay-xml": "dev-master",
 		"andylibrian/omnipay-veritrans": "dev-master",
