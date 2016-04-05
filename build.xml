@@ -2,7 +2,7 @@
 
 <project name="Aimeos TYPO3 payments extension" default="all">
 
-	<target name="update" description="Updates the Aimeos core">
+	<target name="update" description="Updates the libraries">
 		<exec command="git pull https://github.com/aimeos/aimeos-typo3-pay.git" checkreturn="true" logoutput="true" />
 		<exec command="COMPOSER=composer.aimeos.json composer update --working-dir ${project.basedir}" checkreturn="true" logoutput="true" />
 	</target>
