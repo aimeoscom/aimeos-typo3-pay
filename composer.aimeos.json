@@ -13,10 +13,14 @@
 	"type": "metapackage",
 	"prefer-stable": true,
 	"minimum-stability": "dev",
+	"repositories": [
+		{ "type": "vcs", "url": "https://github.com/aimeoscom/omnipay-sofort.git" }
+	],
 	"require": {
 		"php": ">=5.3.3",
 		"composer/installers": "^1.0",
 		"aimeos/ai-payments": "~2016.04",
+		"asci/omnipay-sofort": "dev-master",
 		"omnipay/omnipay": "~2.0",
 		"omnipay/payu": "dev-master",
 		"business-mastery/omnipay-mobilpay": "~1.0",
@@ -61,7 +65,6 @@
 		"meebio/omnipay-secure-trading": "dev-master",
 		"fruitcakestudio/omnipay-sisow": "dev-master",
 		"alfaproject/omnipay-skrill": "dev-master",
-		"asci/omnipay-sofort": "~2.2",
 		"lokielse/omnipay-unionpay": "dev-master",
 		"andylibrian/omnipay-veritrans": "~1.0",
 		"dercoder/omnipay-webmoney": "~1.0",
