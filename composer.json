@@ -13,14 +13,11 @@
 	"type": "metapackage",
 	"prefer-stable": true,
 	"minimum-stability": "dev",
-	"repositories": [
-		{ "type": "vcs", "url": "https://github.com/aimeoscom/omnipay-sofort.git" }
-	],
 	"require": {
 		"php": ">=5.3.3",
 		"composer/installers": "^1.0",
-		"aimeos/ai-payments": "~2016.04",
-		"asci/omnipay-sofort": "dev-master",
+		"aimeos/ai-payments": "~2016.10",
+		"aimeoscom/omnipay-sofort": "~2.3",
 		"omnipay/omnipay": "~2.0",
 		"omnipay/payu": "dev-master",
 		"business-mastery/omnipay-mobilpay": "~1.0",
@@ -50,8 +47,10 @@
 		"yasinkuyu/omnipay-nestpay": "~2.0",
 		"alfaproject/omnipay-neteller": "dev-master",
 		"mfauveau/omnipay-nmi": "dev-master",
+		"fruitcake/omnipay-novalnet": "dev-master",
 		"mfauveau/omnipay-pacnet": "dev-master",
 		"descubraomundo/omnipay-pagarme": "dev-master",
+		"academe/omnipay-payone": "~2.0",
 		"coatesap/omnipay-paymentsense": "dev-master",
 		"delatbabel/omnipay-paymentwall": "dev-master",
 		"paypronl/omnipay-paypro": "dev-master",
@@ -74,6 +73,9 @@
 		"igaponov/omnipay-wirecard": "dev-master",
 		"teaandcode/omnipay-worldpay-xml": "dev-master",
 		"yandexmoney/omnipay": "dev-master"
+	},
+	"replace": {
+		"aimeos/aimeos-core": "2016.10"
 	},
 	"config": {
 		"vendor-dir": "Resources/Libraries"

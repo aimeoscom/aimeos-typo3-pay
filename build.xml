@@ -4,11 +4,11 @@
 
 	<target name="update" description="Updates the libraries">
 		<exec command="git pull https://github.com/aimeos/aimeos-typo3-pay.git" checkreturn="true" logoutput="true" />
-		<exec command="COMPOSER=composer.aimeos.json composer update --working-dir ${project.basedir}" checkreturn="true" logoutput="true" />
+		<exec command="composer update --no-dev --working-dir ${project.basedir}" checkreturn="true" logoutput="true" />
 	</target>
 
 	<target name="deploy" description="Executes all deployments">
-		<exec command="COMPOSER=composer.aimeos.json composer install --no-dev --working-dir ${project.basedir}" checkreturn="true" logoutput="true" />
+		<exec command="composer install --no-dev --working-dir ${project.basedir}" checkreturn="true" logoutput="true" />
 		<propertyprompt propertyName="version" promptText="Enter release version" promptCharacter=":" useExistingValue="true"/>
 		<reflexive>
 		  <fileset dir="." includes="ext_emconf.php" />
@@ -18,7 +18,7 @@
 		    </replaceregexp>
 		  </filterchain>
 		</reflexive>
-		<exec command="zip -r ../aimeos_pay_${version}.zip * -x \*.git\*" checkreturn="true" logoutput="true"/>
+		<exec command="zip -r ../aimeos_pay_${version}.zip * -x \*.git\* -x composer.\*" checkreturn="true" logoutput="true"/>
 		<filehash file="../aimeos_pay_${version}.zip" hashtype="1" />
 		<echo msg="SHA1 hash value: ${filehashvalue}" />
 	</target>
