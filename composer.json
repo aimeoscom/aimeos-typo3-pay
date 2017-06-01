@@ -16,7 +16,7 @@
 	"require": {
 		"php": ">=5.3.3",
 		"composer/installers": "^1.0",
-		"aimeos/ai-payments": "2017.04.x-dev",
+		"aimeos/ai-payments": "dev-master",
 		"aimeoscom/omnipay-sofort": "~2.3",
 		"omnipay/omnipay": "~2.0",
 		"omnipay/payu": "dev-master",
@@ -50,7 +50,7 @@
 		"fruitcake/omnipay-novalnet": "dev-master",
 		"mfauveau/omnipay-pacnet": "~2.0",
 		"descubraomundo/omnipay-pagarme": "~1.0",
-		"academe/omnipay-payone": "~2.0",
+		"academe/omnipay-payone": "dev-master",
 		"digitickets/omnipay-paymentsense": "~3.0",
 		"delatbabel/omnipay-paymentwall": "~1.0",
 		"paypronl/omnipay-paypro": "dev-master",
@@ -69,12 +69,12 @@
 		"dercoder/omnipay-webmoney": "~1.0",
 		"lokielse/omnipay-wechatpay": "~1.0",
 		"collizo4sky/omnipay-wepay": "~1.0",
-		"igaponov/omnipay-wirecard": "~1.0",
+		"academe/omnipay-wirecard": "dev-master",
 		"teaandcode/omnipay-worldpay-xml": "dev-master",
 		"yandexmoney/omnipay": "~1.0"
 	},
 	"replace": {
-		"aimeos/aimeos-core": "2017.04"
+		"aimeos/aimeos-core": "dev-master"
 	},
 	"config": {
 		"vendor-dir": "Resources/Libraries"
