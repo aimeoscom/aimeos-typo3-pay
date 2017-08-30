@@ -48,6 +48,7 @@
 		"dercoder/omnipay-neteller": "~1.0",
 		"mfauveau/omnipay-nmi": "~2.0",
 		"fruitcake/omnipay-novalnet": "dev-master",
+		"vdbelt/omnipay-oppwa": "~1.0",
 		"mfauveau/omnipay-pacnet": "~2.0",
 		"descubraomundo/omnipay-pagarme": "~1.0",
 		"academe/omnipay-payone": "dev-master",
