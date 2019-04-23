@@ -14,10 +14,11 @@
 	"prefer-stable": true,
 	"minimum-stability": "dev",
 	"require": {
-		"php": ">=5.4.0",
+		"php": ">=5.5.0",
 		"composer/installers": "^1.0",
-		"aimeos/ai-payments": "2018.10.*",
+		"aimeos/ai-payments": "2019.04.*",
 		"aimeoscom/omnipay-sofort": "~2.3",
+		"omnipay/common": "~2.5",
 		"omnipay/omnipay": "~2.0",
 		"omnipay/payu": "dev-master",
 		"academe/omnipay-datatrans": "~2.0",
@@ -30,7 +31,7 @@
 		"cardgate/omnipay-cardgate": "~2.0",
 		"fotografde/omnipay-checkoutcom": "~2.0",
 		"meebio/omnipay-creditcall": "~1.0",
-		"dioscouri/omnipay-cybersource": "dev-master",
+		"dioscouri/omnipay-cybersource": "2.x-dev",
 		"dabsquared/omnipay-cybersource-soap": "~1.0",
 		"digitickets/omnipay-datacash": "~3.0",
 		"dercoder/omnipay-ecopayz": "~1.0",
@@ -78,7 +79,7 @@
 		"yandexmoney/omnipay": "~1.0"
 	},
 	"replace": {
-		"aimeos/aimeos-core": "2018.10.*"
+		"aimeos/aimeos-core": "2019.04.*"
 	},
 	"config": {
 		"vendor-dir": "Resources/Libraries"
